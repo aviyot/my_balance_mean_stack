@@ -1,0 +1,56 @@
+.data {
+  font-size: 16px;
+  width: 58%;
+  left: 0%;
+}
+
+.ex {
+  position: relative;
+  color: red;
+  height: 10%;
+  background-color: yellow;
+  margin: 2px;
+  width: 100%;
+}
+
+.item {
+  position: absolute;
+  width: 28%;
+  margin: 5px;
+  height: 80%;
+  left: 60%;
+  /* background-color: inherit;
+border-style: none;*/
+}
+
+.menu {
+  position: absolute;
+  width: 10%;
+  left: 90%;
+  height: 100%;
+}
+
+.menuSimbol {
+  position: relative;
+  font-size: xx-large;
+  z-index: 3;
+  left: 50%;
+}
+
+.edit {
+  top: 0%;
+  position: absolute;
+  padding: 5px;
+  margin: 5px;
+  height: 80%;
+}
+
+.del {
+  width: 200%;
+  z-index: 1;
+  left: -200%;
+  height: 80%;
+  display: none;
+  color: red;
+  top: 100%;
+}
